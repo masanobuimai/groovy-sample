@@ -1,5 +1,5 @@
 <?xml version="1.0"?><component name="dataSourceStorage">
-  <data-source source="LOCAL" name="SQLite" product="" version="" uuid="c18898b0-ca5a-41aa-a49b-bad056421131">
+  <data-source source="LOCAL" name="SQLite" product="SQLite" version="3.6.14.2" uuid="c18898b0-ca5a-41aa-a49b-bad056421131">
     <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
     <jdbc-url>jdbc:sqlite:/Users/mars/IdeaProjects/groovy/sample.db</jdbc-url>
     <libraries>
@@ -7,5 +7,11 @@
         <url>jar://$PROJECT_DIR$/lib/sqlitejdbc-v056.jar!/</url>
       </library>
     </libraries>
+    <table name="TABLE_INFO" schema="" catalog="" type="TABLE">
+      <column name="pkey" sqlType="INTEGER" length="2000000000" precision="10" nullable="true" jdbcType="12" />
+      <column name="name" sqlType="TEXT" length="2000000000" precision="10" nullable="true" jdbcType="12" />
+      <column name="comments" sqlType="TEXT" length="2000000000" precision="10" nullable="true" jdbcType="12" />
+      <primary-key columns="pkey" />
+    </table>
   </data-source>
 </component>
