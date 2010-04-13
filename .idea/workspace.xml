@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="dcf78564-c323-4f43-9b3e-5cefcb5a5c77" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/groovy.iml" afterPath="$PROJECT_DIR$/groovy.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dnd.groovy" afterPath="$PROJECT_DIR$/dnd.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqlite.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dnd.groovy" />
     </list>
     <ignored path="$USER_HOME_GRIFFON$/" />
     <ignored path="$USER_HOME_GRAILS$/" />
@@ -89,7 +85,7 @@
       <file leaf-file-name="dnd.groovy" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dnd.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="1" selection-start="1052" selection-end="1052" vertical-scroll-proportion="0.6951027">
+            <state line="20" column="53" selection-start="784" selection-end="784" vertical-scroll-proportion="0.3464567">
               <folding />
             </state>
           </provider>
@@ -536,7 +532,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="97" y="22" width="1020" height="776" extended-state="0" />
+    <frame x="32" y="22" width="1063" height="778" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6045455" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -550,9 +546,9 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24049331" sideWeight="0.45606062" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23031496" sideWeight="0.45770392" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.53333336" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.53172207" sideWeight="0.99901575" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Regex" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -579,7 +575,7 @@
     <option name="ENABLE_BACKGROUND_PROCESSES" value="true" />
     <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="local historyの代わりにgit使ってみた。" />
+    <option name="LAST_COMMIT_MESSAGE" value="サンプルちょっと増やした。" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -593,6 +589,7 @@
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="local historyの代わりにgit使ってみた。" />
+    <MESSAGE value="サンプルちょっと増やした。" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -639,7 +636,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dnd.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="1" selection-start="1052" selection-end="1052" vertical-scroll-proportion="0.6951027">
+        <state line="20" column="53" selection-start="784" selection-end="784" vertical-scroll-proportion="0.3464567">
           <folding />
         </state>
       </provider>
