@@ -1,0 +1,11 @@
+<?xml version="1.0"?><component name="dataSourceStorage">
+  <data-source source="LOCAL" name="SQLite" product="" version="" uuid="c18898b0-ca5a-41aa-a49b-bad056421131">
+    <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+    <jdbc-url>jdbc:sqlite:/Users/mars/IdeaProjects/groovy/sample.db</jdbc-url>
+    <libraries>
+      <library>
+        <url>jar://$PROJECT_DIR$/lib/sqlitejdbc-v056.jar!/</url>
+      </library>
+    </libraries>
+  </data-source>
+</component>

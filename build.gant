@@ -1,0 +1,6 @@
+target ( fizzbuzz : 'Fizz Buzz.' ) {
+  (1..100).each {
+     echo(it % 3 ? (it % 5 ? "FizzBuzz" : "Fizz")
+                 : it % 5 ? "Buzz" : it)
+  }
+}

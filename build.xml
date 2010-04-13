@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="sample" default="hello" basedir=".">
+  <taskdef resource="net/sf/antcontrib/antlib.xml">
+    <classpath>
+      <pathelement location="lib/ant-contrib-1.0b3.jar"/>
+    </classpath>
+  </taskdef>
+
+  <target name="hello">
+    <echo>Hello World</echo>
+  </target>
+
+  <target name="fizzbuzz">
+    <for param="i" begin="0" end="100">
+      <sequential>
+        <math result="ans3" operation="%" operand1="@{i}" operand2="3"/>
+        <math result="ans5" operation="%" operand1="@{i}" operand2="5"/>
+        <if>
+          <and>
+            <equals arg1="${ans3}" arg2="0.0"/>
+            <equals arg1="${ans5}" arg2="0.0"/>
+          </and>
+          <then>
+            <echo>FizzBuzz</echo>
+          </then>
+          <elseif>
+            <equals arg1="${ans3}" arg2="0.0"/>
+            <then>
+              <echo>Fizz</echo>
+            </then>
+          </elseif>
+          <elseif>
+            <equals arg1="${ans5}" arg2="0.0"/>
+            <then>
+              <echo>Buzz</echo>
+            </then>
+          </elseif>
+          <else>
+            <echo>@{i}</echo>
+          </else>
+        </if>
+      </sequential>
+    </for>
+  </target>
+
+</project>
