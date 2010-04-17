@@ -1,3 +1,3 @@
-new URL("http://www.yahoo.co.jp").eachLine {
+"http://www.yahoo.co.jp".toURL().eachLine {
   println it
 }

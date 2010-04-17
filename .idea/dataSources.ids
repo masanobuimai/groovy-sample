@@ -7,10 +7,10 @@
         <url>jar://$PROJECT_DIR$/lib/sqlitejdbc-v056.jar!/</url>
       </library>
     </libraries>
-    <table name="TABLE_INFO" schema="" catalog="" type="TABLE">
+    <table name="FILE_INFO" schema="" catalog="" type="TABLE">
       <column name="pkey" sqlType="INTEGER" length="2000000000" precision="10" nullable="true" jdbcType="12" />
-      <column name="name" sqlType="TEXT" length="2000000000" precision="10" nullable="true" jdbcType="12" />
-      <column name="comments" sqlType="TEXT" length="2000000000" precision="10" nullable="true" jdbcType="12" />
+      <column name="filename" sqlType="TEXT" length="2000000000" precision="10" nullable="true" jdbcType="12" />
+      <column name="filesize" sqlType="INTEGER" length="2000000000" precision="10" nullable="true" jdbcType="12" />
       <primary-key columns="pkey" />
     </table>
   </data-source>
